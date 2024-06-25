@@ -1,10 +1,12 @@
-import ClickBoard from "./components/ClickBoard/clickboard.component"
+import ClickFrame from "./components/ClickFrame/clickframe.component"
+import Title from "./components/Title/title.component"
 
 function App() {
 
   return (
     <>
-      <ClickBoard /> <br /> <br />
+      <Title text="Click Counter" color="white" />
+      <ClickFrame /> <br /> <br />
     </>
   )
 }
